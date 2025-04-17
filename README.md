@@ -26,9 +26,15 @@ A lightweight, real-time system monitoring dashboard built with Python and `ttkb
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Make sure Python 3 is installed, and run:
 
 ```bash
 pip install psutil ttkbootstrap
+
+### Run the GUI
+
+```bash
+python GUI3.py
+

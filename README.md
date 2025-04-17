@@ -38,3 +38,24 @@ pip install psutil ttkbootstrap
 ```bash
 python GUI3.py
 ```
+## Add to Application Menu with Icon
+
+To make the GUI accessible from your desktop environment like a native app:
+
+### 1. Create a `.desktop` Entry
+
+```bash
+nano ~/.local/share/applications/pimonitor.desktop
+```
+### 2. Paste the Following
+
+```bash
+[Desktop Entry]
+Type=Application
+Name=Pi Monitor
+Exec=python3 /home/pi/your_folder/monitor.py
+Icon=/home/pi/your_folder/icon.png
+Terminal=false
+Categories=Utility;
+```
+Replace /home/pi/your_folder/ with your actual file path.

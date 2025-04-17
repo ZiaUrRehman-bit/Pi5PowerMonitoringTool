@@ -32,9 +32,9 @@ Make sure Python 3 is installed, and run:
 
 ```bash
 pip install psutil ttkbootstrap
-
+```
 ### Run the GUI
 
 ```bash
 python GUI3.py
-
+```
